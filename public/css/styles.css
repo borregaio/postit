@@ -119,5 +119,6 @@ footer {
   .newItem button {
     margin: 0 auto;
     width: 40px;
+    height: 40px;
   }
 }
