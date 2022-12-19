@@ -21,6 +21,7 @@ h1 {
 #heading {
   background-color: #02c9a2;
   text-align: center;
+  margin-top: 200px;
 }
 
 .item {
@@ -64,7 +65,7 @@ button {
   background-color: #02c9a2;
   color: #fff;
   font-size: 30px;
-  padding-bottom: 6px;
+  padding: 6px;
   border-width: 0;
 }
 
@@ -93,4 +94,29 @@ footer {
   color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+  #heading {
+    margin-top: 150px;
+  }
+  
+  .box {
+    max-width: 300px;
+  }
+
+  .newItem {
+    margin: 0 auto;
+  }
+
+  
+  .newItem input {
+    width: 150px;
+  }
+
+  .newItem button {
+    margin: 0 auto;
+  }
 }
