@@ -106,18 +106,19 @@ footer {
   .box {
     max-width: 300px;
   }
-
-  .newItem {
-    margin: 0 auto;
-  }
-
   
   .newItem input {
-    width: 130px;
+    width: 120px;
+    margin-right: 20px;
   }
 
-  .newItem button {
+  form button{
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
   }
+
+  form.item {
+    margin: 0 53px;
+  }
+
 }
