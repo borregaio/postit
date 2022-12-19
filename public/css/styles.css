@@ -113,10 +113,11 @@ footer {
 
   
   .newItem input {
-    width: 120px;
+    width: 130px;
   }
 
   .newItem button {
     margin: 0 auto;
+    width: 40px;
   }
 }
